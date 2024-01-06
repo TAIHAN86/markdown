@@ -7,7 +7,7 @@ const App = () => {
       <Route>
         {/* public routes*/}
         <route path="/sign-in" element={signinform/>} />
-        {/* public routes*/}
+        {/* private  routes*/}
       </Route>
       <Route index element={<home/>}/>
     </main>
